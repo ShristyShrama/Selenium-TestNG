@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.370">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyInvalidData"
+                time="11.927"
+                classname="com.Jotform.JotForm.FormTests">
+            </testcase>
+            <testcase
+                name="verifyValidData"
+                time="5.043"
+                classname="com.Jotform.JotForm.FormTests">
+            </testcase>
+            <testcase
+                name="verifyNullFieldValidation"
+                time="0.400"
+                classname="com.Jotform.JotForm.FormTests">
+            </testcase>
+</testsuite>

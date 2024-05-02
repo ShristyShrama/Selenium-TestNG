@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="date" value="01-01-2024"/>
+    <parameter name="features" value="Any required feature needs to be specify here."/>
+    <parameter name="firstname" value="Test"/>
+    <parameter name="purpose" value="Automation testing purpose"/>
+    <parameter name="phonenumber" value="7983610000"/>
+    <parameter name="questions" value="Any query to be asked needs to jot down here."/>
+    <parameter name="time" value="02:30"/>
+    <parameter name="url" value="https://form.jotform.com/241153403489455"/>
+    <parameter name="email" value="example@gmail.com"/>
+    <parameter name="lastname" value="User"/>
+    <classes>
+      <class name="com.Jotform.JotForm.FormTests">
+        <methods>
+          <include name="verifyValidData" invocation-numbers="0"/>
+          <include name="pageReload"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Jotform.JotForm.FormTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
